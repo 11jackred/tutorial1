@@ -6,11 +6,12 @@
   "author": "",
   "type": "commonjs",
   "main": "1-intro.js",
-  "scripts": {"start":"node app.js"
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "dependencies": {
-    "bootstar": "^0.0.1-security",
     "lodash": "^4.18.1"
   },
   "devDependencies": {
